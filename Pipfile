@@ -7,6 +7,9 @@ name = "pypi"
 "e1839a8" = {path = ".", editable = true}
 
 [dev-packages]
+mypy = "*"
+pycodestyle = "*"
+"zest.releaser" = "*"
 
 [requires]
 python_version = "3.6"
